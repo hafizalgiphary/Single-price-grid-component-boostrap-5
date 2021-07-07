@@ -1,0 +1,116 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Karla', sans-serif;
+}
+
+
+.card-1{
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
+}
+
+
+.card-text{
+ color: hsl(218, 22%, 67%);
+}
+
+.card-2{
+    border-bottom-left-radius:0.5rem;
+    background-color: hsl(179, 62%, 43%);   
+}
+
+.card-3{
+    background-color: hsla(179, 62%, 43%, 0.789);
+    border-bottom-right-radius:0.5rem;
+
+}
+
+
+.card-title-1{
+    color:  hsl(179, 62%, 43%);
+}
+
+.card-title-2{
+    color: hsl(71, 73%, 54%);
+}
+
+.card-title-3{
+    color: hsl(204, 43%, 93%);
+}
+.dollar{
+    font-size: 20pt;
+}
+.per{
+    color: hsl(204, 43%, 93%);
+}
+
+
+.btn{
+    background-color: hsla(71, 73%, 54%, 0.678);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    transition: ease-in-out 300ms;
+}
+
+.btn:hover{
+    background-color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+   
+}
+
+
+.btn:focus{
+    background-color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    outline: none;
+    box-shadow: none;
+}
+
+.pad{
+    margin-top: 0.6rem;
+}
+
+@media only screen and (max-width: 500px) {
+    card-1{
+        border-top-left-radius:0.5rem;
+        border-top-right-radius:0.5rem;
+    }
+
+    .card-2{
+        border-bottom-left-radius:0rem;
+
+        background-color: hsl(179, 62%, 43%);   
+    }
+
+    .card-3{
+        background-color: hsla(179, 62%, 43%, 0.789);
+        border-bottom-left-radius:0.5rem;
+        border-bottom-right-radius:0.5rem;
+    
+    }
+  }
+
+  @media only screen and (max-width: 475px) {
+    card-1{
+        border-top-left-radius:0.5rem;
+        border-top-right-radius:0.5rem;
+    }
+
+    .card-2{
+        border-bottom-left-radius:0rem;
+
+        background-color: hsl(179, 62%, 43%);   
+    }
+
+    .card-3{
+        background-color: hsla(179, 62%, 43%, 0.789);
+        border-bottom-left-radius:0.5rem;
+        border-bottom-right-radius:0.5rem;
+    
+    }
+  }
